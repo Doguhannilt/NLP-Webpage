@@ -37,7 +37,7 @@ NLP is an interdisciplinary field that is commonly used in text-based projects. 
 In this documentation, you may be able to understand the core concepts of Natural Language Processing.""")
 
 
-image_1 = Image.open('C:/Users/doguy/Desktop/Documentation/Images/1.png')
+image_1 = Image.open('Images/1.png')
 st.image(image_1, caption='NLP Introduction')
 
 st.subheader("Common NLP Tasks and Applications")
@@ -133,7 +133,7 @@ st.divider()
 
 st.header("Tokenization")
 st.subheader("What is Tokenization")
-image_2 = Image.open('C:/Users/doguy/Desktop/Documentation/Images/2.jpg')
+image_2 = Image.open('Images/2.jpg')
 st.image(image_2, caption='Tokenization is get used to create small units from a whole piece',width = 400)
 st.code("AI is not able to understand our language if it is not numerical. So, make AI's job easier, we divide the sentences or words into smaller units.")
 st.write("Tokens are the basic units of language that machin learning models can understand the whole process.")
@@ -412,7 +412,7 @@ how_transformers = [
 how_transformers_pd = pd.DataFrame({'How to use Transformers': how_transformers})
 st.table(how_transformers_pd)
 
-image_3 = Image.open('C:/Users/doguy/Desktop/Documentation/Images/3.png')
+image_3 = Image.open('Images/3.png')
 st.image(image_3, caption='Transformers Architecture')
 
 st.write("""

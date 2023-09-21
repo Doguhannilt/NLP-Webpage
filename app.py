@@ -5,30 +5,6 @@ import pygame
 
 st.title("NLP Introduction")
 st.info("The webpage is for beginners.")
-# Initialize pygame
-pygame.init()
-
-# Function to play music
-def play_music():
-    pygame.mixer.music.load("music.mp3")
-    pygame.mixer.music.play()
-
-# Function to stop music
-def stop_music():
-    pygame.mixer.music.stop()
-
-# İki sütun oluştur
-col1, col2 = st.columns(2)
-
-# İlk sütun için "Play Music" butonu
-with col1:
-    if st.button("Play Music"):
-        play_music()
-
-# İkinci sütun için "Stop Music" butonu
-with col2:
-    if st.button("Stop Music"):
-        stop_music()
 st.subheader("What is NLP")
 
 st.write("""

@@ -1,0 +1,4 @@
+streamlit==1.26.0
+pandas==2.0.3
+easy-pil==0.3.0
+pygame-2048==1.9.4
